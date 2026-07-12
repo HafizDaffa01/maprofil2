@@ -1,7 +1,14 @@
+
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Biarkan kosong atau tambahkan konfigurasi lain yang valid
+  // next.config.js
 };
+
+// next.config.js
+module.exports = {
+  allowedDevOrigins: ["192.168.1.7"]
+}
 
 export default nextConfig;
